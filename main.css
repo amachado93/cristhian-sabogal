@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -56,6 +57,12 @@ header {
     padding-left: 1em;
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 header nav {
@@ -67,20 +74,25 @@ header nav {
 li {
     list-style: none;
     padding-left: 1em;
- }
+}
+
 
 div {
     margin: 0 auto;
     width: 90%;
     padding:1em;
-    display: grid;
+    
+}
+
+p {
+    padding-bottom: .75em;
+}
+
+.image-container {
+   display: grid; 
 }
 
 img {
     width: 95%;
     height: auto;
-}
-
-p {
-    padding-bottom: .75em;
 }
