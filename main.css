@@ -1,0 +1,16 @@
+li {
+   list-style: none;
+   padding-left: 1em;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: baseline;
+}
