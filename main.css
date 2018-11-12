@@ -71,7 +71,7 @@ header nav {
     padding-right: 1em;
 }
 
-li {
+nav > li {
     list-style: none;
     padding-left: 1em;
 }
@@ -93,6 +93,6 @@ p {
 }
 
 img {
-    width: 95%;
+    width: 100%;
     height: auto;
 }
