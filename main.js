@@ -1,5 +1,2 @@
-const menu = document.getElementsByClassName('menu');
+// will find window width
 
-menu.addEventListener('click', function(event){
-    alert('You have just clicked a menu item.')
-});
