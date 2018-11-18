@@ -104,3 +104,15 @@ img {
     width: 100%;
     height: auto;
 }
+
+/* mobile styling for INFO page */
+
+.information {
+    padding: 1.5em .5em;
+    background-color: #53FC56;
+}
+
+.list-headline {
+    font-weight: bold;
+}
+
